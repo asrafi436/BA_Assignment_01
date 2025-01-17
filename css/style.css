@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Change background of the menu icon */
+.navbar-toggler {
+    background-color: #2E3192; /* Purple background */
+    border: none; /* Remove default border */
+    padding: 8px; /* Add some spacing around the icon */
+    border-radius: 5px; /* Optional: Rounded corners */
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 1.5em;
+  }
+
+    /* Add rounded corners and subtle shadow */
+
+  .dropdown-menu {
+    position: absolute;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+
+  /* Hover effect for dropdown items */
+  .dropdown-item:hover {
+    background-color: #2E3192; /* Purple background on hover */
+    color: #fff; /* White text on hover */
+  }
+
+  /* Optional: Triangle pointer */
+  .dropdown-menu::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    border-width: 0 15px 15px 15px;
+    border-style: solid ;
+    border-color: transparent transparent #ffffff transparent;
+  }
+
+
+  .card_image img{
+    width: 150px;
+  }
+
+ .bio_text{
+    text-align: justify;
+ }
+
+footer{
+    background-color: #151754;
+}
